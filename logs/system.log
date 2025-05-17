@@ -1,0 +1,832 @@
+2025-05-17 19:15:55,604 INFO     root | Battery level: 100% (Low Threshold: 20%)
+2025-05-17 19:15:55,604 INFO     root | Drone listening on port 5001
+2025-05-17 19:16:05,609 INFO     root | Battery level: 73% (Low Threshold: 20%)
+2025-05-17 19:16:15,611 INFO     root | Battery level: 43% (Low Threshold: 20%)
+2025-05-17 19:16:22,714 INFO     root | Drone initiating return to base (Threshold: 20%). Battery: 19%. Travel time: 2 ticks.
+2025-05-17 19:16:23,719 INFO     root | Drone returning to base: 2 travel ticks remaining. Draining battery.
+2025-05-17 19:16:24,724 INFO     root | Drone returning to base: 1 travel ticks remaining. Draining battery.
+2025-05-17 19:16:25,615 INFO     root | Battery level: 13% (Low Threshold: 20%)
+2025-05-17 19:16:25,615 WARNING  root | Low battery warning: 13%
+2025-05-17 19:16:25,728 INFO     root | Drone arrived at base. Commencing charge.
+2025-05-17 19:16:27,336 INFO     root | [sensor1] connected to Drone at 127.0.0.1:5001
+2025-05-17 19:16:27,336 INFO     root | Sensor 127.0.0.1:52329 connected.
+2025-05-17 19:16:27,336 INFO     root | [sensor1] Sent: Temp=25.1°C, Hum=60%
+2025-05-17 19:16:27,336 INFO     root | RX sensor1 from 127.0.0.1:52329: 25.1°C 60%
+2025-05-17 19:16:27,337 INFO     root | Battery low (33%), queuing reading from sensor1
+2025-05-17 19:16:29,341 INFO     root | [sensor1] Sent: Temp=21.5°C, Hum=45%
+2025-05-17 19:16:29,341 INFO     root | RX sensor1 from 127.0.0.1:52329: 21.5°C 45%
+2025-05-17 19:16:29,341 INFO     root | Battery low (53%), queuing reading from sensor1
+2025-05-17 19:16:31,345 INFO     root | [sensor1] Sent: Temp=26.7°C, Hum=40%
+2025-05-17 19:16:31,345 INFO     root | RX sensor1 from 127.0.0.1:52329: 26.7°C 40%
+2025-05-17 19:16:31,346 INFO     root | Battery low (73%), queuing reading from sensor1
+2025-05-17 19:16:33,351 INFO     root | [sensor1] Sent: Temp=25.7°C, Hum=60%
+2025-05-17 19:16:33,351 INFO     root | RX sensor1 from 127.0.0.1:52329: 25.7°C 60%
+2025-05-17 19:16:33,351 INFO     root | Battery low (83%), queuing reading from sensor1
+2025-05-17 19:16:33,351 INFO     root | Drone now active. Battery: 93%.
+2025-05-17 19:16:33,352 INFO     root | Flushing 4 queued readings upon becoming active.
+2025-05-17 19:16:33,356 INFO     root | Report sent to ('127.0.0.1', 6000): status active, 4 readings, 0 anomalies.
+2025-05-17 19:16:35,356 INFO     root | [sensor1] Sent: Temp=30.0°C, Hum=44%
+2025-05-17 19:16:35,357 INFO     root | RX sensor1 from 127.0.0.1:52329: 30.0°C 44%
+2025-05-17 19:16:35,620 INFO     root | Battery level: 90% (Low Threshold: 20%)
+2025-05-17 19:16:37,359 INFO     root | [sensor1] Sent: Temp=22.4°C, Hum=60%
+2025-05-17 19:16:37,359 INFO     root | RX sensor1 from 127.0.0.1:52329: 22.4°C 60%
+2025-05-17 19:16:39,362 INFO     root | [sensor1] Sent: Temp=21.4°C, Hum=49%
+2025-05-17 19:16:39,362 INFO     root | RX sensor1 from 127.0.0.1:52329: 21.4°C 49%
+2025-05-17 19:16:41,368 INFO     root | [sensor1] Sent: Temp=25.1°C, Hum=51%
+2025-05-17 19:16:41,368 INFO     root | RX sensor1 from 127.0.0.1:52329: 25.1°C 51%
+2025-05-17 19:16:43,370 INFO     root | [sensor1] Sent: Temp=29.4°C, Hum=44%
+2025-05-17 19:16:43,371 INFO     root | RX sensor1 from 127.0.0.1:52329: 29.4°C 44%
+2025-05-17 19:16:43,371 INFO     root | Report sent to ('127.0.0.1', 6000): status active, 5 readings, 0 anomalies.
+2025-05-17 19:16:45,376 INFO     root | [sensor1] Sent: Temp=24.0°C, Hum=53%
+2025-05-17 19:16:45,376 INFO     root | RX sensor1 from 127.0.0.1:52329: 24.0°C 53%
+2025-05-17 19:16:45,624 INFO     root | Battery level: 66% (Low Threshold: 20%)
+2025-05-17 19:16:47,379 INFO     root | [sensor1] Sent: Temp=22.8°C, Hum=52%
+2025-05-17 19:16:47,379 INFO     root | RX sensor1 from 127.0.0.1:52329: 22.8°C 52%
+2025-05-17 19:16:49,382 INFO     root | [sensor1] Sent: Temp=22.4°C, Hum=58%
+2025-05-17 19:16:49,382 INFO     root | RX sensor1 from 127.0.0.1:52329: 22.4°C 58%
+2025-05-17 19:16:51,388 INFO     root | [sensor1] Sent: Temp=26.9°C, Hum=43%
+2025-05-17 19:16:51,388 INFO     root | RX sensor1 from 127.0.0.1:52329: 26.9°C 43%
+2025-05-17 19:16:53,394 INFO     root | [sensor1] Sent: Temp=22.3°C, Hum=46%
+2025-05-17 19:16:53,394 INFO     root | RX sensor1 from 127.0.0.1:52329: 22.3°C 46%
+2025-05-17 19:16:53,394 INFO     root | Report sent to ('127.0.0.1', 6000): status active, 5 readings, 0 anomalies.
+2025-05-17 19:16:55,395 INFO     root | [sensor1] Sent: Temp=28.8°C, Hum=53%
+2025-05-17 19:16:55,395 INFO     root | RX sensor1 from 127.0.0.1:52329: 28.8°C 53%
+2025-05-17 19:16:55,627 INFO     root | Battery level: 42% (Low Threshold: 20%)
+2025-05-17 19:16:57,400 INFO     root | [sensor1] Sent: Temp=29.5°C, Hum=54%
+2025-05-17 19:16:57,400 INFO     root | RX sensor1 from 127.0.0.1:52329: 29.5°C 54%
+2025-05-17 19:16:59,405 INFO     root | [sensor1] Sent: Temp=27.9°C, Hum=53%
+2025-05-17 19:16:59,405 INFO     root | RX sensor1 from 127.0.0.1:52329: 27.9°C 53%
+2025-05-17 19:17:01,407 INFO     root | [sensor1] Sent: Temp=20.3°C, Hum=49%
+2025-05-17 19:17:01,407 INFO     root | RX sensor1 from 127.0.0.1:52329: 20.3°C 49%
+2025-05-17 19:17:03,409 INFO     root | [sensor1] Sent: Temp=23.4°C, Hum=52%
+2025-05-17 19:17:03,409 INFO     root | RX sensor1 from 127.0.0.1:52329: 23.4°C 52%
+2025-05-17 19:17:03,409 INFO     root | Report sent to ('127.0.0.1', 6000): status active, 5 readings, 0 anomalies.
+2025-05-17 19:17:05,414 INFO     root | [sensor1] Sent: Temp=22.7°C, Hum=44%
+2025-05-17 19:17:05,414 INFO     root | RX sensor1 from 127.0.0.1:52329: 22.7°C 44%
+2025-05-17 19:17:05,631 INFO     root | Battery level: 21% (Low Threshold: 20%)
+2025-05-17 19:17:06,416 INFO     root | Drone initiating return to base (Threshold: 20%). Battery: 18%. Travel time: 2 ticks.
+2025-05-17 19:17:07,292 INFO     root | [anomaly_test] connected to Drone at 127.0.0.1:5001
+2025-05-17 19:17:07,292 INFO     root | Sensor 127.0.0.1:52344 connected.
+2025-05-17 19:17:07,292 INFO     root | [anomaly_test] Sent: Temp=1000.0°C, Hum=200%
+2025-05-17 19:17:07,292 INFO     root | RX anomaly_test from 127.0.0.1:52344: 1000.0°C 200%
+2025-05-17 19:17:07,292 INFO     root | Battery low (18%), queuing reading from anomaly_test
+2025-05-17 19:17:07,415 INFO     root | [sensor1] Sent: Temp=28.7°C, Hum=48%
+2025-05-17 19:17:07,415 INFO     root | RX sensor1 from 127.0.0.1:52329: 28.7°C 48%
+2025-05-17 19:17:07,415 INFO     root | Battery low (18%), queuing reading from sensor1
+2025-05-17 19:17:08,416 INFO     root | Drone returning to base: 2 travel ticks remaining. Draining battery.
+2025-05-17 19:17:09,295 INFO     root | [anomaly_test] Sent: Temp=1000.0°C, Hum=200%
+2025-05-17 19:17:09,295 INFO     root | RX anomaly_test from 127.0.0.1:52344: 1000.0°C 200%
+2025-05-17 19:17:09,295 INFO     root | Battery low (15%), queuing reading from anomaly_test
+2025-05-17 19:17:09,418 INFO     root | [sensor1] Sent: Temp=20.5°C, Hum=50%
+2025-05-17 19:17:09,418 INFO     root | RX sensor1 from 127.0.0.1:52329: 20.5°C 50%
+2025-05-17 19:17:09,418 INFO     root | Battery low (15%), queuing reading from sensor1
+2025-05-17 19:17:09,418 INFO     root | Drone returning to base: 1 travel ticks remaining. Draining battery.
+2025-05-17 19:17:10,420 INFO     root | Drone arrived at base. Commencing charge.
+2025-05-17 19:17:11,298 INFO     root | [anomaly_test] Sent: Temp=1000.0°C, Hum=200%
+2025-05-17 19:17:11,298 INFO     root | RX anomaly_test from 127.0.0.1:52344: 1000.0°C 200%
+2025-05-17 19:17:11,298 INFO     root | Battery low (22%), queuing reading from anomaly_test
+2025-05-17 19:17:11,422 INFO     root | [sensor1] Sent: Temp=25.3°C, Hum=40%
+2025-05-17 19:17:11,423 INFO     root | RX sensor1 from 127.0.0.1:52329: 25.3°C 40%
+2025-05-17 19:17:11,423 INFO     root | Battery low (22%), queuing reading from sensor1
+2025-05-17 19:17:13,303 INFO     root | [anomaly_test] Sent: Temp=1000.0°C, Hum=200%
+2025-05-17 19:17:13,304 INFO     root | RX anomaly_test from 127.0.0.1:52344: 1000.0°C 200%
+2025-05-17 19:17:13,304 INFO     root | Battery low (42%), queuing reading from anomaly_test
+2025-05-17 19:17:13,425 INFO     root | [sensor1] Sent: Temp=24.8°C, Hum=44%
+2025-05-17 19:17:13,425 INFO     root | RX sensor1 from 127.0.0.1:52329: 24.8°C 44%
+2025-05-17 19:17:13,425 INFO     root | Battery low (42%), queuing reading from sensor1
+2025-05-17 19:17:15,309 INFO     root | [anomaly_test] Sent: Temp=1000.0°C, Hum=200%
+2025-05-17 19:17:15,309 INFO     root | RX anomaly_test from 127.0.0.1:52344: 1000.0°C 200%
+2025-05-17 19:17:15,309 INFO     root | Battery low (52%), queuing reading from anomaly_test
+2025-05-17 19:17:15,430 INFO     root | [sensor1] Sent: Temp=21.3°C, Hum=45%
+2025-05-17 19:17:15,430 INFO     root | RX sensor1 from 127.0.0.1:52329: 21.3°C 45%
+2025-05-17 19:17:15,431 INFO     root | Battery low (52%), queuing reading from sensor1
+2025-05-17 19:17:15,634 INFO     root | Battery level: 62% (Low Threshold: 20%)
+2025-05-17 19:17:17,314 INFO     root | [anomaly_test] Sent: Temp=1000.0°C, Hum=200%
+2025-05-17 19:17:17,314 INFO     root | RX anomaly_test from 127.0.0.1:52344: 1000.0°C 200%
+2025-05-17 19:17:17,315 INFO     root | Battery low (72%), queuing reading from anomaly_test
+2025-05-17 19:17:17,436 INFO     root | [sensor1] Sent: Temp=23.5°C, Hum=59%
+2025-05-17 19:17:17,436 INFO     root | RX sensor1 from 127.0.0.1:52329: 23.5°C 59%
+2025-05-17 19:17:17,436 INFO     root | Battery low (72%), queuing reading from sensor1
+2025-05-17 19:17:18,441 INFO     root | Drone now active. Battery: 92%.
+2025-05-17 19:17:18,441 INFO     root | Flushing 13 queued readings upon becoming active.
+2025-05-17 19:17:18,441 INFO     root | Report sent to ('127.0.0.1', 6000): status active, 13 readings, 6 anomalies.
+2025-05-17 19:17:19,320 INFO     root | [anomaly_test] Sent: Temp=1000.0°C, Hum=200%
+2025-05-17 19:17:19,320 INFO     root | RX anomaly_test from 127.0.0.1:52344: 1000.0°C 200%
+2025-05-17 19:17:19,441 INFO     root | [sensor1] Sent: Temp=20.1°C, Hum=53%
+2025-05-17 19:17:19,441 INFO     root | RX sensor1 from 127.0.0.1:52329: 20.1°C 53%
+2025-05-17 19:17:21,325 INFO     root | [anomaly_test] Sent: Temp=1000.0°C, Hum=200%
+2025-05-17 19:17:21,325 INFO     root | RX anomaly_test from 127.0.0.1:52344: 1000.0°C 200%
+2025-05-17 19:17:21,446 INFO     root | [sensor1] Sent: Temp=21.3°C, Hum=45%
+2025-05-17 19:17:21,446 INFO     root | RX sensor1 from 127.0.0.1:52329: 21.3°C 45%
+2025-05-17 19:17:23,328 INFO     root | [anomaly_test] Sent: Temp=1000.0°C, Hum=200%
+2025-05-17 19:17:23,328 INFO     root | RX anomaly_test from 127.0.0.1:52344: 1000.0°C 200%
+2025-05-17 19:17:23,328 INFO     root | Report sent to ('127.0.0.1', 6000): status active, 5 readings, 3 anomalies.
+2025-05-17 19:17:23,448 INFO     root | [sensor1] Sent: Temp=27.8°C, Hum=59%
+2025-05-17 19:17:23,448 INFO     root | RX sensor1 from 127.0.0.1:52329: 27.8°C 59%
+2025-05-17 19:17:25,333 INFO     root | [anomaly_test] Sent: Temp=1000.0°C, Hum=200%
+2025-05-17 19:17:25,333 INFO     root | RX anomaly_test from 127.0.0.1:52344: 1000.0°C 200%
+2025-05-17 19:17:25,454 INFO     root | [sensor1] Sent: Temp=22.5°C, Hum=45%
+2025-05-17 19:17:25,454 INFO     root | RX sensor1 from 127.0.0.1:52329: 22.5°C 45%
+2025-05-17 19:17:25,639 INFO     root | Battery level: 71% (Low Threshold: 20%)
+2025-05-17 19:17:27,338 INFO     root | [anomaly_test] Sent: Temp=1000.0°C, Hum=200%
+2025-05-17 19:17:27,339 INFO     root | RX anomaly_test from 127.0.0.1:52344: 1000.0°C 200%
+2025-05-17 19:17:27,459 INFO     root | [sensor1] Sent: Temp=22.2°C, Hum=42%
+2025-05-17 19:17:27,459 INFO     root | RX sensor1 from 127.0.0.1:52329: 22.2°C 42%
+2025-05-17 19:17:27,459 INFO     root | Report sent to ('127.0.0.1', 6000): status active, 5 readings, 2 anomalies.
+2025-05-17 19:17:29,344 INFO     root | [anomaly_test] Sent: Temp=1000.0°C, Hum=200%
+2025-05-17 19:17:29,344 INFO     root | RX anomaly_test from 127.0.0.1:52344: 1000.0°C 200%
+2025-05-17 19:17:29,464 INFO     root | [sensor1] Sent: Temp=20.5°C, Hum=57%
+2025-05-17 19:17:29,464 INFO     root | RX sensor1 from 127.0.0.1:52329: 20.5°C 57%
+2025-05-17 19:17:31,349 INFO     root | [anomaly_test] Sent: Temp=1000.0°C, Hum=200%
+2025-05-17 19:17:31,349 INFO     root | RX anomaly_test from 127.0.0.1:52344: 1000.0°C 200%
+2025-05-17 19:17:31,469 INFO     root | [sensor1] Sent: Temp=21.3°C, Hum=56%
+2025-05-17 19:17:31,469 INFO     root | RX sensor1 from 127.0.0.1:52329: 21.3°C 56%
+2025-05-17 19:17:33,354 INFO     root | [anomaly_test] Sent: Temp=1000.0°C, Hum=200%
+2025-05-17 19:17:33,354 INFO     root | RX anomaly_test from 127.0.0.1:52344: 1000.0°C 200%
+2025-05-17 19:17:33,355 INFO     root | Report sent to ('127.0.0.1', 6000): status active, 5 readings, 3 anomalies.
+2025-05-17 19:17:33,475 INFO     root | [sensor1] Sent: Temp=22.5°C, Hum=44%
+2025-05-17 19:17:33,475 INFO     root | RX sensor1 from 127.0.0.1:52329: 22.5°C 44%
+2025-05-17 19:17:35,360 INFO     root | [anomaly_test] Sent: Temp=1000.0°C, Hum=200%
+2025-05-17 19:17:35,360 INFO     root | RX anomaly_test from 127.0.0.1:52344: 1000.0°C 200%
+2025-05-17 19:17:35,477 INFO     root | [sensor1] Sent: Temp=20.3°C, Hum=46%
+2025-05-17 19:17:35,477 INFO     root | RX sensor1 from 127.0.0.1:52329: 20.3°C 46%
+2025-05-17 19:17:35,644 INFO     root | Battery level: 47% (Low Threshold: 20%)
+2025-05-17 19:17:37,366 INFO     root | [anomaly_test] Sent: Temp=1000.0°C, Hum=200%
+2025-05-17 19:17:37,366 INFO     root | RX anomaly_test from 127.0.0.1:52344: 1000.0°C 200%
+2025-05-17 19:17:37,479 INFO     root | [sensor1] Sent: Temp=28.2°C, Hum=42%
+2025-05-17 19:17:37,479 INFO     root | RX sensor1 from 127.0.0.1:52329: 28.2°C 42%
+2025-05-17 19:17:37,480 INFO     root | Report sent to ('127.0.0.1', 6000): status active, 5 readings, 2 anomalies.
+2025-05-17 19:17:39,371 INFO     root | [anomaly_test] Sent: Temp=1000.0°C, Hum=200%
+2025-05-17 19:17:39,372 INFO     root | RX anomaly_test from 127.0.0.1:52344: 1000.0°C 200%
+2025-05-17 19:17:39,484 INFO     root | [sensor1] Sent: Temp=28.2°C, Hum=51%
+2025-05-17 19:17:39,484 INFO     root | RX sensor1 from 127.0.0.1:52329: 28.2°C 51%
+2025-05-17 19:17:41,375 INFO     root | [anomaly_test] Sent: Temp=1000.0°C, Hum=200%
+2025-05-17 19:17:41,375 INFO     root | RX anomaly_test from 127.0.0.1:52344: 1000.0°C 200%
+2025-05-17 19:17:41,489 INFO     root | [sensor1] Sent: Temp=28.6°C, Hum=54%
+2025-05-17 19:17:41,489 INFO     root | RX sensor1 from 127.0.0.1:52329: 28.6°C 54%
+2025-05-17 19:17:43,379 INFO     root | [anomaly_test] Sent: Temp=1000.0°C, Hum=200%
+2025-05-17 19:17:43,379 INFO     root | RX anomaly_test from 127.0.0.1:52344: 1000.0°C 200%
+2025-05-17 19:17:43,380 WARNING  root | Central server ('127.0.0.1', 6000) unreachable ([Errno 61] Connection refused) – saving report to disk.
+2025-05-17 19:17:43,491 INFO     root | [sensor1] Sent: Temp=29.0°C, Hum=58%
+2025-05-17 19:17:43,491 INFO     root | RX sensor1 from 127.0.0.1:52329: 29.0°C 58%
+2025-05-17 19:17:45,384 INFO     root | [anomaly_test] Sent: Temp=1000.0°C, Hum=200%
+2025-05-17 19:17:45,384 INFO     root | RX anomaly_test from 127.0.0.1:52344: 1000.0°C 200%
+2025-05-17 19:17:45,457 INFO     root | Sensor 127.0.0.1:52344 disconnected.
+2025-05-17 19:17:45,496 INFO     root | [sensor1] Sent: Temp=22.9°C, Hum=47%
+2025-05-17 19:17:45,496 INFO     root | RX sensor1 from 127.0.0.1:52329: 22.9°C 47%
+2025-05-17 19:17:45,648 INFO     root | Battery level: 20% (Low Threshold: 20%)
+2025-05-17 19:17:46,497 INFO     root | Drone initiating return to base (Threshold: 20%). Battery: 17%. Travel time: 2 ticks.
+2025-05-17 19:17:47,498 INFO     root | [sensor1] Sent: Temp=27.0°C, Hum=57%
+2025-05-17 19:17:47,498 INFO     root | RX sensor1 from 127.0.0.1:52329: 27.0°C 57%
+2025-05-17 19:17:47,499 INFO     root | Battery low (17%), queuing reading from sensor1
+2025-05-17 19:17:47,499 INFO     root | Drone returning to base: 2 travel ticks remaining. Draining battery.
+2025-05-17 19:17:48,178 INFO     root | Sensor 127.0.0.1:52329 disconnected.
+2025-05-17 19:17:48,502 INFO     root | Drone returning to base: 1 travel ticks remaining. Draining battery.
+2025-05-17 19:17:49,507 INFO     root | Drone arrived at base. Commencing charge.
+2025-05-17 19:20:43,305 INFO     root | Battery level: 100% (Low Threshold: 20%)
+2025-05-17 19:20:43,305 INFO     root | Drone listening on port 5001
+2025-05-17 19:20:53,305 INFO     root | Battery level: 73% (Low Threshold: 20%)
+2025-05-17 19:20:57,948 INFO     root | [sensor1] connected to Drone at 127.0.0.1:5001
+2025-05-17 19:20:57,948 INFO     root | Sensor 127.0.0.1:52390 connected.
+2025-05-17 19:20:57,948 INFO     root | [sensor1] Sent: Temp=25.2°C, Hum=45%
+2025-05-17 19:20:57,948 INFO     root | RX sensor1 from 127.0.0.1:52390: 25.2°C 45%
+2025-05-17 19:20:59,953 INFO     root | [sensor1] Sent: Temp=23.6°C, Hum=50%
+2025-05-17 19:20:59,953 INFO     root | RX sensor1 from 127.0.0.1:52390: 23.6°C 50%
+2025-05-17 19:21:01,956 INFO     root | [sensor1] Sent: Temp=24.2°C, Hum=58%
+2025-05-17 19:21:01,956 INFO     root | RX sensor1 from 127.0.0.1:52390: 24.2°C 58%
+2025-05-17 19:21:03,311 INFO     root | Battery level: 43% (Low Threshold: 20%)
+2025-05-17 19:21:03,499 INFO     root | Sensor 127.0.0.1:52390 disconnected.
+2025-05-17 19:21:10,992 INFO     root | Drone initiating return to base (Threshold: 20%). Battery: 19%. Travel time: 2 ticks.
+2025-05-17 19:21:11,352 INFO     root | [sensor1] connected to Drone at 127.0.0.1:5001
+2025-05-17 19:21:11,352 INFO     root | Sensor 127.0.0.1:52397 connected.
+2025-05-17 19:21:11,352 INFO     root | [sensor1] Sent: Temp=20.2°C, Hum=57%
+2025-05-17 19:21:11,353 INFO     root | RX sensor1 from 127.0.0.1:52397: 20.2°C 57%
+2025-05-17 19:21:11,353 INFO     root | Battery low (19%), queuing reading from sensor1
+2025-05-17 19:21:12,357 INFO     root | Drone returning to base: 2 travel ticks remaining. Draining battery.
+2025-05-17 19:21:13,316 INFO     root | Battery level: 16% (Low Threshold: 20%)
+2025-05-17 19:21:13,317 WARNING  root | Low battery warning: 16%
+2025-05-17 19:21:13,355 INFO     root | [sensor1] Sent: Temp=25.4°C, Hum=49%
+2025-05-17 19:21:13,356 INFO     root | RX sensor1 from 127.0.0.1:52397: 25.4°C 49%
+2025-05-17 19:21:13,356 INFO     root | Battery low (16%), queuing reading from sensor1
+2025-05-17 19:21:14,361 INFO     root | Drone returning to base: 1 travel ticks remaining. Draining battery.
+2025-05-17 19:21:15,357 INFO     root | [sensor1] Sent: Temp=26.8°C, Hum=56%
+2025-05-17 19:21:15,358 INFO     root | RX sensor1 from 127.0.0.1:52397: 26.8°C 56%
+2025-05-17 19:21:15,358 INFO     root | Battery low (13%), queuing reading from sensor1
+2025-05-17 19:21:16,363 INFO     root | Drone arrived at base. Commencing charge.
+2025-05-17 19:21:17,363 INFO     root | [sensor1] Sent: Temp=24.7°C, Hum=50%
+2025-05-17 19:21:17,363 INFO     root | RX sensor1 from 127.0.0.1:52397: 24.7°C 50%
+2025-05-17 19:21:17,363 INFO     root | Battery low (23%), queuing reading from sensor1
+2025-05-17 19:21:19,364 INFO     root | [sensor1] Sent: Temp=22.0°C, Hum=45%
+2025-05-17 19:21:19,364 INFO     root | RX sensor1 from 127.0.0.1:52397: 22.0°C 45%
+2025-05-17 19:21:19,365 INFO     root | Battery low (43%), queuing reading from sensor1
+2025-05-17 19:21:21,370 INFO     root | [sensor1] Sent: Temp=27.6°C, Hum=44%
+2025-05-17 19:21:21,370 INFO     root | RX sensor1 from 127.0.0.1:52397: 27.6°C 44%
+2025-05-17 19:21:21,370 INFO     root | Battery low (53%), queuing reading from sensor1
+2025-05-17 19:21:22,368 INFO     root | [sensor2] connected to Drone at 127.0.0.1:5001
+2025-05-17 19:21:22,368 INFO     root | Sensor 127.0.0.1:52403 connected.
+2025-05-17 19:21:22,368 INFO     root | [sensor2] Sent: Temp=22.3°C, Hum=52%
+2025-05-17 19:21:22,368 INFO     root | RX sensor2 from 127.0.0.1:52403: 22.3°C 52%
+2025-05-17 19:21:22,368 INFO     root | Battery low (63%), queuing reading from sensor2
+2025-05-17 19:21:23,320 INFO     root | Battery level: 63% (Low Threshold: 20%)
+2025-05-17 19:21:23,375 INFO     root | [sensor1] Sent: Temp=21.7°C, Hum=47%
+2025-05-17 19:21:23,375 INFO     root | RX sensor1 from 127.0.0.1:52397: 21.7°C 47%
+2025-05-17 19:21:23,375 INFO     root | Battery low (73%), queuing reading from sensor1
+2025-05-17 19:21:24,372 INFO     root | [sensor2] Sent: Temp=21.3°C, Hum=57%
+2025-05-17 19:21:24,372 INFO     root | RX sensor2 from 127.0.0.1:52403: 21.3°C 57%
+2025-05-17 19:21:24,373 INFO     root | Battery low (73%), queuing reading from sensor2
+2025-05-17 19:21:25,381 INFO     root | [sensor1] Sent: Temp=26.8°C, Hum=55%
+2025-05-17 19:21:25,381 INFO     root | RX sensor1 from 127.0.0.1:52397: 26.8°C 55%
+2025-05-17 19:21:25,381 INFO     root | Battery low (83%), queuing reading from sensor1
+2025-05-17 19:21:26,378 INFO     root | [sensor2] Sent: Temp=28.7°C, Hum=51%
+2025-05-17 19:21:26,378 INFO     root | RX sensor2 from 127.0.0.1:52403: 28.7°C 51%
+2025-05-17 19:21:26,378 INFO     root | Battery low (83%), queuing reading from sensor2
+2025-05-17 19:21:26,378 INFO     root | Drone now active. Battery: 93%.
+2025-05-17 19:21:26,379 INFO     root | Flushing 14 queued readings upon becoming active.
+2025-05-17 19:21:26,382 INFO     root | Report sent to ('127.0.0.1', 6000): status active, 14 readings, 0 anomalies.
+2025-05-17 19:21:27,387 INFO     root | [sensor1] Sent: Temp=29.6°C, Hum=58%
+2025-05-17 19:21:27,387 INFO     root | RX sensor1 from 127.0.0.1:52397: 29.6°C 58%
+2025-05-17 19:21:28,383 INFO     root | [sensor2] Sent: Temp=23.9°C, Hum=46%
+2025-05-17 19:21:28,384 INFO     root | RX sensor2 from 127.0.0.1:52403: 23.9°C 46%
+2025-05-17 19:21:29,392 INFO     root | [sensor1] Sent: Temp=27.1°C, Hum=52%
+2025-05-17 19:21:29,392 INFO     root | RX sensor1 from 127.0.0.1:52397: 27.1°C 52%
+2025-05-17 19:21:30,385 INFO     root | [sensor2] Sent: Temp=21.5°C, Hum=57%
+2025-05-17 19:21:30,385 INFO     root | RX sensor2 from 127.0.0.1:52403: 21.5°C 57%
+2025-05-17 19:21:31,397 INFO     root | [sensor1] Sent: Temp=23.5°C, Hum=48%
+2025-05-17 19:21:31,397 INFO     root | RX sensor1 from 127.0.0.1:52397: 23.5°C 48%
+2025-05-17 19:21:31,397 INFO     root | Report sent to ('127.0.0.1', 6000): status active, 5 readings, 0 anomalies.
+2025-05-17 19:21:32,390 INFO     root | [sensor2] Sent: Temp=24.2°C, Hum=49%
+2025-05-17 19:21:32,390 INFO     root | RX sensor2 from 127.0.0.1:52403: 24.2°C 49%
+2025-05-17 19:21:33,325 INFO     root | Battery level: 78% (Low Threshold: 20%)
+2025-05-17 19:21:33,399 INFO     root | [sensor1] Sent: Temp=20.3°C, Hum=51%
+2025-05-17 19:21:33,399 INFO     root | RX sensor1 from 127.0.0.1:52397: 20.3°C 51%
+2025-05-17 19:21:34,395 INFO     root | [sensor2] Sent: Temp=23.7°C, Hum=49%
+2025-05-17 19:21:34,396 INFO     root | RX sensor2 from 127.0.0.1:52403: 23.7°C 49%
+2025-05-17 19:21:35,402 INFO     root | [sensor1] Sent: Temp=23.8°C, Hum=60%
+2025-05-17 19:21:35,403 INFO     root | RX sensor1 from 127.0.0.1:52397: 23.8°C 60%
+2025-05-17 19:21:36,400 INFO     root | [sensor2] Sent: Temp=22.0°C, Hum=60%
+2025-05-17 19:21:36,401 INFO     root | RX sensor2 from 127.0.0.1:52403: 22.0°C 60%
+2025-05-17 19:21:36,401 INFO     root | Report sent to ('127.0.0.1', 6000): status active, 5 readings, 0 anomalies.
+2025-05-17 19:21:37,404 INFO     root | [sensor1] Sent: Temp=25.2°C, Hum=57%
+2025-05-17 19:21:37,404 INFO     root | RX sensor1 from 127.0.0.1:52397: 25.2°C 57%
+2025-05-17 19:21:38,405 INFO     root | [sensor2] Sent: Temp=25.8°C, Hum=44%
+2025-05-17 19:21:38,405 INFO     root | RX sensor2 from 127.0.0.1:52403: 25.8°C 44%
+2025-05-17 19:21:39,409 INFO     root | [sensor1] Sent: Temp=21.7°C, Hum=55%
+2025-05-17 19:21:39,409 INFO     root | RX sensor1 from 127.0.0.1:52397: 21.7°C 55%
+2025-05-17 19:21:40,407 INFO     root | [sensor2] Sent: Temp=25.7°C, Hum=55%
+2025-05-17 19:21:40,407 INFO     root | RX sensor2 from 127.0.0.1:52403: 25.7°C 55%
+2025-05-17 19:21:41,414 INFO     root | [sensor1] Sent: Temp=24.7°C, Hum=52%
+2025-05-17 19:21:41,414 INFO     root | RX sensor1 from 127.0.0.1:52397: 24.7°C 52%
+2025-05-17 19:21:41,415 INFO     root | Report sent to ('127.0.0.1', 6000): status active, 5 readings, 0 anomalies.
+2025-05-17 19:21:42,412 INFO     root | [sensor2] Sent: Temp=21.3°C, Hum=50%
+2025-05-17 19:21:42,412 INFO     root | RX sensor2 from 127.0.0.1:52403: 21.3°C 50%
+2025-05-17 19:21:43,309 INFO     root | Checking for unsent reports in unsent...
+2025-05-17 19:21:43,309 INFO     root | Attempting to resend 1747498663.380626.json
+2025-05-17 19:21:43,310 INFO     root | Successfully resent 1747498663.380626.json to ('127.0.0.1', 6000)
+2025-05-17 19:21:43,330 INFO     root | Battery level: 51% (Low Threshold: 20%)
+2025-05-17 19:21:43,419 INFO     root | [sensor1] Sent: Temp=20.4°C, Hum=58%
+2025-05-17 19:21:43,419 INFO     root | RX sensor1 from 127.0.0.1:52397: 20.4°C 58%
+2025-05-17 19:21:44,416 INFO     root | [sensor2] Sent: Temp=23.8°C, Hum=44%
+2025-05-17 19:21:44,416 INFO     root | RX sensor2 from 127.0.0.1:52403: 23.8°C 44%
+2025-05-17 19:21:45,425 INFO     root | [sensor1] Sent: Temp=25.5°C, Hum=55%
+2025-05-17 19:21:45,425 INFO     root | RX sensor1 from 127.0.0.1:52397: 25.5°C 55%
+2025-05-17 19:21:46,421 INFO     root | [sensor2] Sent: Temp=24.1°C, Hum=56%
+2025-05-17 19:21:46,421 INFO     root | RX sensor2 from 127.0.0.1:52403: 24.1°C 56%
+2025-05-17 19:21:46,421 INFO     root | Report sent to ('127.0.0.1', 6000): status active, 5 readings, 0 anomalies.
+2025-05-17 19:21:47,428 INFO     root | [sensor1] Sent: Temp=22.9°C, Hum=57%
+2025-05-17 19:21:47,428 INFO     root | RX sensor1 from 127.0.0.1:52397: 22.9°C 57%
+2025-05-17 19:21:48,426 INFO     root | [sensor2] Sent: Temp=25.7°C, Hum=54%
+2025-05-17 19:21:48,426 INFO     root | RX sensor2 from 127.0.0.1:52403: 25.7°C 54%
+2025-05-17 19:21:49,433 INFO     root | [sensor1] Sent: Temp=27.5°C, Hum=52%
+2025-05-17 19:21:49,433 INFO     root | RX sensor1 from 127.0.0.1:52397: 27.5°C 52%
+2025-05-17 19:21:50,427 INFO     root | [sensor2] Sent: Temp=20.5°C, Hum=46%
+2025-05-17 19:21:50,428 INFO     root | RX sensor2 from 127.0.0.1:52403: 20.5°C 46%
+2025-05-17 19:21:51,438 INFO     root | [sensor1] Sent: Temp=24.0°C, Hum=45%
+2025-05-17 19:21:51,439 INFO     root | RX sensor1 from 127.0.0.1:52397: 24.0°C 45%
+2025-05-17 19:21:51,439 INFO     root | Report sent to ('127.0.0.1', 6000): status active, 5 readings, 0 anomalies.
+2025-05-17 19:21:52,433 INFO     root | [sensor2] Sent: Temp=23.7°C, Hum=57%
+2025-05-17 19:21:52,433 INFO     root | RX sensor2 from 127.0.0.1:52403: 23.7°C 57%
+2025-05-17 19:21:53,335 INFO     root | Battery level: 24% (Low Threshold: 20%)
+2025-05-17 19:21:53,444 INFO     root | [sensor1] Sent: Temp=24.3°C, Hum=51%
+2025-05-17 19:21:53,444 INFO     root | RX sensor1 from 127.0.0.1:52397: 24.3°C 51%
+2025-05-17 19:21:54,438 INFO     root | [sensor2] Sent: Temp=25.6°C, Hum=51%
+2025-05-17 19:21:54,438 INFO     root | RX sensor2 from 127.0.0.1:52403: 25.6°C 51%
+2025-05-17 19:21:54,438 INFO     root | Drone initiating return to base (Threshold: 20%). Battery: 18%. Travel time: 2 ticks.
+2025-05-17 19:21:55,439 INFO     root | Drone returning to base: 2 travel ticks remaining. Draining battery.
+2025-05-17 19:21:55,446 INFO     root | [sensor1] Sent: Temp=20.1°C, Hum=53%
+2025-05-17 19:21:55,446 INFO     root | RX sensor1 from 127.0.0.1:52397: 20.1°C 53%
+2025-05-17 19:21:55,446 INFO     root | Battery low (15%), queuing reading from sensor1
+2025-05-17 19:21:56,440 INFO     root | [sensor2] Sent: Temp=28.1°C, Hum=58%
+2025-05-17 19:21:56,440 INFO     root | RX sensor2 from 127.0.0.1:52403: 28.1°C 58%
+2025-05-17 19:21:56,440 INFO     root | Battery low (15%), queuing reading from sensor2
+2025-05-17 19:21:56,440 INFO     root | Drone returning to base: 1 travel ticks remaining. Draining battery.
+2025-05-17 19:21:57,445 INFO     root | Drone arrived at base. Commencing charge.
+2025-05-17 19:21:57,451 INFO     root | [sensor1] Sent: Temp=28.8°C, Hum=52%
+2025-05-17 19:21:57,451 INFO     root | RX sensor1 from 127.0.0.1:52397: 28.8°C 52%
+2025-05-17 19:21:57,451 INFO     root | Battery low (22%), queuing reading from sensor1
+2025-05-17 19:21:58,445 INFO     root | [sensor2] Sent: Temp=26.9°C, Hum=60%
+2025-05-17 19:21:58,445 INFO     root | RX sensor2 from 127.0.0.1:52403: 26.9°C 60%
+2025-05-17 19:21:58,445 INFO     root | Battery low (22%), queuing reading from sensor2
+2025-05-17 19:21:59,456 INFO     root | [sensor1] Sent: Temp=28.8°C, Hum=51%
+2025-05-17 19:21:59,457 INFO     root | RX sensor1 from 127.0.0.1:52397: 28.8°C 51%
+2025-05-17 19:21:59,457 INFO     root | Battery low (42%), queuing reading from sensor1
+2025-05-17 19:22:00,450 INFO     root | [sensor2] Sent: Temp=24.2°C, Hum=41%
+2025-05-17 19:22:00,450 INFO     root | RX sensor2 from 127.0.0.1:52403: 24.2°C 41%
+2025-05-17 19:22:00,450 INFO     root | Battery low (42%), queuing reading from sensor2
+2025-05-17 19:22:01,462 INFO     root | [sensor1] Sent: Temp=24.7°C, Hum=60%
+2025-05-17 19:22:01,462 INFO     root | RX sensor1 from 127.0.0.1:52397: 24.7°C 60%
+2025-05-17 19:22:01,462 INFO     root | Battery low (62%), queuing reading from sensor1
+2025-05-17 19:22:02,455 INFO     root | [sensor2] Sent: Temp=24.6°C, Hum=51%
+2025-05-17 19:22:02,455 INFO     root | RX sensor2 from 127.0.0.1:52403: 24.6°C 51%
+2025-05-17 19:22:02,456 INFO     root | Battery low (62%), queuing reading from sensor2
+2025-05-17 19:22:03,339 INFO     root | Battery level: 72% (Low Threshold: 20%)
+2025-05-17 19:22:03,467 INFO     root | [sensor1] Sent: Temp=20.1°C, Hum=46%
+2025-05-17 19:22:03,467 INFO     root | RX sensor1 from 127.0.0.1:52397: 20.1°C 46%
+2025-05-17 19:22:03,467 INFO     root | Battery low (82%), queuing reading from sensor1
+2025-05-17 19:22:04,461 INFO     root | [sensor2] Sent: Temp=22.0°C, Hum=49%
+2025-05-17 19:22:04,461 INFO     root | RX sensor2 from 127.0.0.1:52403: 22.0°C 49%
+2025-05-17 19:22:04,461 INFO     root | Battery low (82%), queuing reading from sensor2
+2025-05-17 19:22:04,461 INFO     root | Drone now active. Battery: 92%.
+2025-05-17 19:22:04,461 INFO     root | Flushing 13 queued readings upon becoming active.
+2025-05-17 19:22:04,461 INFO     root | Report sent to ('127.0.0.1', 6000): status active, 13 readings, 0 anomalies.
+2025-05-17 19:22:05,469 INFO     root | [sensor1] Sent: Temp=29.1°C, Hum=48%
+2025-05-17 19:22:05,469 INFO     root | RX sensor1 from 127.0.0.1:52397: 29.1°C 48%
+2025-05-17 19:22:06,466 INFO     root | [sensor2] Sent: Temp=29.8°C, Hum=52%
+2025-05-17 19:22:06,466 INFO     root | RX sensor2 from 127.0.0.1:52403: 29.8°C 52%
+2025-05-17 19:22:07,474 INFO     root | [sensor1] Sent: Temp=26.2°C, Hum=49%
+2025-05-17 19:22:07,474 INFO     root | RX sensor1 from 127.0.0.1:52397: 26.2°C 49%
+2025-05-17 19:22:08,470 INFO     root | [sensor2] Sent: Temp=28.0°C, Hum=56%
+2025-05-17 19:22:08,470 INFO     root | RX sensor2 from 127.0.0.1:52403: 28.0°C 56%
+2025-05-17 19:22:09,479 INFO     root | [sensor1] Sent: Temp=24.7°C, Hum=54%
+2025-05-17 19:22:09,479 INFO     root | RX sensor1 from 127.0.0.1:52397: 24.7°C 54%
+2025-05-17 19:22:09,480 INFO     root | Report sent to ('127.0.0.1', 6000): status active, 5 readings, 0 anomalies.
+2025-05-17 19:22:10,472 INFO     root | [sensor2] Sent: Temp=22.6°C, Hum=51%
+2025-05-17 19:22:10,472 INFO     root | RX sensor2 from 127.0.0.1:52403: 22.6°C 51%
+2025-05-17 19:22:11,485 INFO     root | [sensor1] Sent: Temp=23.3°C, Hum=42%
+2025-05-17 19:22:11,485 INFO     root | RX sensor1 from 127.0.0.1:52397: 23.3°C 42%
+2025-05-17 19:22:12,477 INFO     root | [sensor2] Sent: Temp=25.1°C, Hum=52%
+2025-05-17 19:22:12,477 INFO     root | RX sensor2 from 127.0.0.1:52403: 25.1°C 52%
+2025-05-17 19:22:13,340 INFO     root | Battery level: 77% (Low Threshold: 20%)
+2025-05-17 19:22:13,487 INFO     root | [sensor1] Sent: Temp=24.7°C, Hum=55%
+2025-05-17 19:22:13,487 INFO     root | RX sensor1 from 127.0.0.1:52397: 24.7°C 55%
+2025-05-17 19:22:14,483 INFO     root | [sensor2] Sent: Temp=26.0°C, Hum=45%
+2025-05-17 19:22:14,483 INFO     root | RX sensor2 from 127.0.0.1:52403: 26.0°C 45%
+2025-05-17 19:22:14,483 INFO     root | Report sent to ('127.0.0.1', 6000): status active, 5 readings, 0 anomalies.
+2025-05-17 19:22:15,488 INFO     root | [sensor1] Sent: Temp=21.0°C, Hum=60%
+2025-05-17 19:22:15,488 INFO     root | RX sensor1 from 127.0.0.1:52397: 21.0°C 60%
+2025-05-17 19:22:16,488 INFO     root | [sensor2] Sent: Temp=24.2°C, Hum=53%
+2025-05-17 19:22:16,488 INFO     root | RX sensor2 from 127.0.0.1:52403: 24.2°C 53%
+2025-05-17 19:22:17,494 INFO     root | [sensor1] Sent: Temp=23.7°C, Hum=55%
+2025-05-17 19:22:17,494 INFO     root | RX sensor1 from 127.0.0.1:52397: 23.7°C 55%
+2025-05-17 19:22:18,493 INFO     root | [sensor2] Sent: Temp=24.9°C, Hum=40%
+2025-05-17 19:22:18,493 INFO     root | RX sensor2 from 127.0.0.1:52403: 24.9°C 40%
+2025-05-17 19:22:19,499 INFO     root | [sensor1] Sent: Temp=26.3°C, Hum=51%
+2025-05-17 19:22:19,499 INFO     root | RX sensor1 from 127.0.0.1:52397: 26.3°C 51%
+2025-05-17 19:22:19,499 INFO     root | Report sent to ('127.0.0.1', 6000): status active, 5 readings, 0 anomalies.
+2025-05-17 19:22:20,498 INFO     root | [sensor2] Sent: Temp=22.6°C, Hum=41%
+2025-05-17 19:22:20,498 INFO     root | RX sensor2 from 127.0.0.1:52403: 22.6°C 41%
+2025-05-17 19:22:21,504 INFO     root | [sensor1] Sent: Temp=21.1°C, Hum=54%
+2025-05-17 19:22:21,504 INFO     root | RX sensor1 from 127.0.0.1:52397: 21.1°C 54%
+2025-05-17 19:22:22,220 INFO     root | Battery MANUALLY DRAINED by 10%. Level: 53% -> 43%.
+2025-05-17 19:22:22,502 INFO     root | [sensor2] Sent: Temp=29.3°C, Hum=54%
+2025-05-17 19:22:22,502 INFO     root | RX sensor2 from 127.0.0.1:52403: 29.3°C 54%
+2025-05-17 19:22:23,345 INFO     root | Battery level: 43% (Low Threshold: 20%)
+2025-05-17 19:22:23,509 INFO     root | [sensor1] Sent: Temp=20.6°C, Hum=58%
+2025-05-17 19:22:23,509 INFO     root | RX sensor1 from 127.0.0.1:52397: 20.6°C 58%
+2025-05-17 19:22:24,507 INFO     root | [sensor2] Sent: Temp=21.2°C, Hum=54%
+2025-05-17 19:22:24,507 INFO     root | RX sensor2 from 127.0.0.1:52403: 21.2°C 54%
+2025-05-17 19:22:24,508 INFO     root | Report sent to ('127.0.0.1', 6000): status active, 5 readings, 0 anomalies.
+2025-05-17 19:22:25,514 INFO     root | [sensor1] Sent: Temp=24.7°C, Hum=51%
+2025-05-17 19:22:25,514 INFO     root | RX sensor1 from 127.0.0.1:52397: 24.7°C 51%
+2025-05-17 19:22:26,513 INFO     root | [sensor2] Sent: Temp=27.6°C, Hum=41%
+2025-05-17 19:22:26,513 INFO     root | RX sensor2 from 127.0.0.1:52403: 27.6°C 41%
+2025-05-17 19:22:27,519 INFO     root | [sensor1] Sent: Temp=27.9°C, Hum=58%
+2025-05-17 19:22:27,519 INFO     root | RX sensor1 from 127.0.0.1:52397: 27.9°C 58%
+2025-05-17 19:22:28,518 INFO     root | [sensor2] Sent: Temp=27.2°C, Hum=40%
+2025-05-17 19:22:28,518 INFO     root | RX sensor2 from 127.0.0.1:52403: 27.2°C 40%
+2025-05-17 19:22:29,523 INFO     root | [sensor1] Sent: Temp=29.3°C, Hum=45%
+2025-05-17 19:22:29,523 INFO     root | RX sensor1 from 127.0.0.1:52397: 29.3°C 45%
+2025-05-17 19:22:29,524 INFO     root | Report sent to ('127.0.0.1', 6000): status active, 5 readings, 0 anomalies.
+2025-05-17 19:22:30,524 INFO     root | [sensor2] Sent: Temp=29.8°C, Hum=47%
+2025-05-17 19:22:30,524 INFO     root | RX sensor2 from 127.0.0.1:52403: 29.8°C 47%
+2025-05-17 19:22:31,529 INFO     root | [sensor1] Sent: Temp=21.2°C, Hum=51%
+2025-05-17 19:22:31,529 INFO     root | RX sensor1 from 127.0.0.1:52397: 21.2°C 51%
+2025-05-17 19:22:32,526 INFO     root | [sensor2] Sent: Temp=28.0°C, Hum=59%
+2025-05-17 19:22:32,526 INFO     root | RX sensor2 from 127.0.0.1:52403: 28.0°C 59%
+2025-05-17 19:22:33,346 INFO     root | Battery level: 22% (Low Threshold: 20%)
+2025-05-17 19:22:33,531 INFO     root | Drone initiating return to base (Threshold: 20%). Battery: 19%. Travel time: 2 ticks.
+2025-05-17 19:22:33,531 INFO     root | [sensor1] Sent: Temp=26.0°C, Hum=44%
+2025-05-17 19:22:33,531 INFO     root | RX sensor1 from 127.0.0.1:52397: 26.0°C 44%
+2025-05-17 19:22:33,532 INFO     root | Battery low (19%), queuing reading from sensor1
+2025-05-17 19:22:34,529 INFO     root | [sensor2] Sent: Temp=20.8°C, Hum=47%
+2025-05-17 19:22:34,529 INFO     root | RX sensor2 from 127.0.0.1:52403: 20.8°C 47%
+2025-05-17 19:22:34,529 INFO     root | Battery low (19%), queuing reading from sensor2
+2025-05-17 19:22:35,534 INFO     root | Drone returning to base: 2 travel ticks remaining. Draining battery.
+2025-05-17 19:22:35,534 INFO     root | [sensor1] Sent: Temp=28.1°C, Hum=47%
+2025-05-17 19:22:35,534 INFO     root | RX sensor1 from 127.0.0.1:52397: 28.1°C 47%
+2025-05-17 19:22:35,534 INFO     root | Battery low (16%), queuing reading from sensor1
+2025-05-17 19:22:36,531 INFO     root | [sensor2] Sent: Temp=25.6°C, Hum=53%
+2025-05-17 19:22:36,531 INFO     root | RX sensor2 from 127.0.0.1:52403: 25.6°C 53%
+2025-05-17 19:22:36,531 INFO     root | Battery low (16%), queuing reading from sensor2
+2025-05-17 19:22:37,536 INFO     root | Drone returning to base: 1 travel ticks remaining. Draining battery.
+2025-05-17 19:22:37,539 INFO     root | [sensor1] Sent: Temp=21.0°C, Hum=42%
+2025-05-17 19:22:37,539 INFO     root | RX sensor1 from 127.0.0.1:52397: 21.0°C 42%
+2025-05-17 19:22:37,539 INFO     root | Battery low (13%), queuing reading from sensor1
+2025-05-17 19:22:38,532 INFO     root | [sensor2] Sent: Temp=29.7°C, Hum=58%
+2025-05-17 19:22:38,532 INFO     root | RX sensor2 from 127.0.0.1:52403: 29.7°C 58%
+2025-05-17 19:22:38,532 INFO     root | Battery low (13%), queuing reading from sensor2
+2025-05-17 19:22:39,537 INFO     root | Drone arrived at base. Commencing charge.
+2025-05-17 19:22:39,540 INFO     root | [sensor1] Sent: Temp=25.9°C, Hum=50%
+2025-05-17 19:22:39,540 INFO     root | RX sensor1 from 127.0.0.1:52397: 25.9°C 50%
+2025-05-17 19:22:39,540 INFO     root | Battery low (23%), queuing reading from sensor1
+2025-05-17 19:22:40,536 INFO     root | [sensor2] Sent: Temp=26.4°C, Hum=43%
+2025-05-17 19:22:40,536 INFO     root | RX sensor2 from 127.0.0.1:52403: 26.4°C 43%
+2025-05-17 19:22:40,536 INFO     root | Battery low (23%), queuing reading from sensor2
+2025-05-17 19:22:41,545 INFO     root | [sensor1] Sent: Temp=25.0°C, Hum=51%
+2025-05-17 19:22:41,545 INFO     root | RX sensor1 from 127.0.0.1:52397: 25.0°C 51%
+2025-05-17 19:22:41,546 INFO     root | Battery low (33%), queuing reading from sensor1
+2025-05-17 19:22:42,540 INFO     root | [sensor2] Sent: Temp=20.6°C, Hum=58%
+2025-05-17 19:22:42,541 INFO     root | RX sensor2 from 127.0.0.1:52403: 20.6°C 58%
+2025-05-17 19:22:42,541 INFO     root | Battery low (33%), queuing reading from sensor2
+2025-05-17 19:22:43,347 INFO     root | Battery level: 43% (Low Threshold: 20%)
+2025-05-17 19:22:43,546 INFO     root | [sensor1] Sent: Temp=22.9°C, Hum=41%
+2025-05-17 19:22:43,546 INFO     root | RX sensor1 from 127.0.0.1:52397: 22.9°C 41%
+2025-05-17 19:22:43,546 INFO     root | Battery low (53%), queuing reading from sensor1
+2025-05-17 19:22:44,546 INFO     root | [sensor2] Sent: Temp=20.6°C, Hum=46%
+2025-05-17 19:22:44,546 INFO     root | RX sensor2 from 127.0.0.1:52403: 20.6°C 46%
+2025-05-17 19:22:44,546 INFO     root | Battery low (53%), queuing reading from sensor2
+2025-05-17 19:22:44,631 INFO     root | Sensor 127.0.0.1:52403 disconnected.
+2025-05-17 19:22:45,551 INFO     root | [sensor1] Sent: Temp=21.2°C, Hum=53%
+2025-05-17 19:22:45,551 INFO     root | RX sensor1 from 127.0.0.1:52397: 21.2°C 53%
+2025-05-17 19:22:45,552 INFO     root | Battery low (73%), queuing reading from sensor1
+2025-05-17 19:22:46,924 INFO     root | Sensor 127.0.0.1:52397 disconnected.
+2025-05-17 19:22:47,560 INFO     root | Drone now active. Battery: 93%.
+2025-05-17 19:22:47,560 INFO     root | Flushing 16 queued readings upon becoming active.
+2025-05-17 19:22:47,562 INFO     root | Report sent to ('127.0.0.1', 6000): status active, 16 readings, 0 anomalies.
+2025-05-17 19:24:12,590 INFO     root | Battery level: 100% (Low Threshold: 20%)
+2025-05-17 19:24:12,590 INFO     root | Drone listening on port 5001
+2025-05-17 19:24:14,849 INFO     root | [sensor1] connected to Drone at 127.0.0.1:5001
+2025-05-17 19:24:14,849 INFO     root | Sensor 127.0.0.1:52430 connected.
+2025-05-17 19:24:14,849 INFO     root | [sensor1] Sent: Temp=20.4°C, Hum=49%
+2025-05-17 19:24:14,849 INFO     root | RX sensor1 from 127.0.0.1:52430: 20.4°C 49%
+2025-05-17 19:24:16,853 INFO     root | [sensor1] Sent: Temp=22.0°C, Hum=52%
+2025-05-17 19:24:16,854 INFO     root | RX sensor1 from 127.0.0.1:52430: 22.0°C 52%
+2025-05-17 19:24:17,136 INFO     root | [sensor2] connected to Drone at 127.0.0.1:5001
+2025-05-17 19:24:17,136 INFO     root | Sensor 127.0.0.1:52431 connected.
+2025-05-17 19:24:17,136 INFO     root | [sensor2] Sent: Temp=22.1°C, Hum=57%
+2025-05-17 19:24:17,136 INFO     root | RX sensor2 from 127.0.0.1:52431: 22.1°C 57%
+2025-05-17 19:24:18,856 INFO     root | [sensor1] Sent: Temp=29.5°C, Hum=47%
+2025-05-17 19:24:18,857 INFO     root | RX sensor1 from 127.0.0.1:52430: 29.5°C 47%
+2025-05-17 19:24:19,139 INFO     root | [sensor2] Sent: Temp=24.8°C, Hum=50%
+2025-05-17 19:24:19,139 INFO     root | RX sensor2 from 127.0.0.1:52431: 24.8°C 50%
+2025-05-17 19:24:19,143 INFO     root | Report sent to ('127.0.0.1', 6000): status active, 5 readings, 0 anomalies.
+2025-05-17 19:24:20,859 INFO     root | [sensor1] Sent: Temp=28.1°C, Hum=45%
+2025-05-17 19:24:20,859 INFO     root | RX sensor1 from 127.0.0.1:52430: 28.1°C 45%
+2025-05-17 19:24:21,141 INFO     root | [sensor2] Sent: Temp=27.0°C, Hum=45%
+2025-05-17 19:24:21,141 INFO     root | RX sensor2 from 127.0.0.1:52431: 27.0°C 45%
+2025-05-17 19:24:22,592 INFO     root | Battery level: 76% (Low Threshold: 20%)
+2025-05-17 19:24:22,861 INFO     root | [sensor1] Sent: Temp=20.3°C, Hum=45%
+2025-05-17 19:24:22,861 INFO     root | RX sensor1 from 127.0.0.1:52430: 20.3°C 45%
+2025-05-17 19:24:23,145 INFO     root | [sensor2] Sent: Temp=20.5°C, Hum=50%
+2025-05-17 19:24:23,145 INFO     root | RX sensor2 from 127.0.0.1:52431: 20.5°C 50%
+2025-05-17 19:24:23,954 INFO     root | Sensor 127.0.0.1:52431 disconnected.
+2025-05-17 19:24:24,864 INFO     root | [sensor1] Sent: Temp=25.0°C, Hum=55%
+2025-05-17 19:24:24,865 INFO     root | RX sensor1 from 127.0.0.1:52430: 25.0°C 55%
+2025-05-17 19:24:24,865 INFO     root | Report sent to ('127.0.0.1', 6000): status active, 5 readings, 0 anomalies.
+2025-05-17 19:24:26,866 INFO     root | [sensor1] Sent: Temp=23.9°C, Hum=49%
+2025-05-17 19:24:26,867 INFO     root | RX sensor1 from 127.0.0.1:52430: 23.9°C 49%
+2025-05-17 19:24:28,869 INFO     root | [sensor1] Sent: Temp=27.6°C, Hum=48%
+2025-05-17 19:24:28,869 INFO     root | RX sensor1 from 127.0.0.1:52430: 27.6°C 48%
+2025-05-17 19:24:30,872 INFO     root | [sensor1] Sent: Temp=27.2°C, Hum=44%
+2025-05-17 19:24:30,872 INFO     root | RX sensor1 from 127.0.0.1:52430: 27.2°C 44%
+2025-05-17 19:24:32,596 INFO     root | Battery level: 58% (Low Threshold: 20%)
+2025-05-17 19:24:32,875 INFO     root | [sensor1] Sent: Temp=23.3°C, Hum=59%
+2025-05-17 19:24:32,875 INFO     root | RX sensor1 from 127.0.0.1:52430: 23.3°C 59%
+2025-05-17 19:24:34,881 INFO     root | [sensor1] Sent: Temp=22.7°C, Hum=43%
+2025-05-17 19:24:34,881 INFO     root | RX sensor1 from 127.0.0.1:52430: 22.7°C 43%
+2025-05-17 19:24:34,881 INFO     root | Report sent to ('127.0.0.1', 6000): status active, 5 readings, 0 anomalies.
+2025-05-17 19:24:36,883 INFO     root | [sensor1] Sent: Temp=22.4°C, Hum=58%
+2025-05-17 19:24:36,883 INFO     root | RX sensor1 from 127.0.0.1:52430: 22.4°C 58%
+2025-05-17 19:24:38,888 INFO     root | [sensor1] Sent: Temp=29.9°C, Hum=51%
+2025-05-17 19:24:38,888 INFO     root | RX sensor1 from 127.0.0.1:52430: 29.9°C 51%
+2025-05-17 19:24:40,891 INFO     root | [sensor1] Sent: Temp=27.1°C, Hum=48%
+2025-05-17 19:24:40,891 INFO     root | RX sensor1 from 127.0.0.1:52430: 27.1°C 48%
+2025-05-17 19:24:42,602 INFO     root | Battery level: 31% (Low Threshold: 20%)
+2025-05-17 19:24:42,896 INFO     root | [sensor1] Sent: Temp=24.8°C, Hum=54%
+2025-05-17 19:24:42,896 INFO     root | RX sensor1 from 127.0.0.1:52430: 24.8°C 54%
+2025-05-17 19:24:44,901 INFO     root | [sensor1] Sent: Temp=27.3°C, Hum=50%
+2025-05-17 19:24:44,901 INFO     root | RX sensor1 from 127.0.0.1:52430: 27.3°C 50%
+2025-05-17 19:24:44,902 INFO     root | Report sent to ('127.0.0.1', 6000): status active, 5 readings, 0 anomalies.
+2025-05-17 19:24:45,907 INFO     root | Drone initiating return to base (Threshold: 20%). Battery: 19%. Travel time: 2 ticks.
+2025-05-17 19:24:46,906 INFO     root | [sensor1] Sent: Temp=21.3°C, Hum=53%
+2025-05-17 19:24:46,906 INFO     root | RX sensor1 from 127.0.0.1:52430: 21.3°C 53%
+2025-05-17 19:24:46,907 INFO     root | Battery low (19%), queuing reading from sensor1
+2025-05-17 19:24:47,912 INFO     root | Drone returning to base: 2 travel ticks remaining. Draining battery.
+2025-05-17 19:24:48,912 INFO     root | [sensor1] Sent: Temp=24.6°C, Hum=48%
+2025-05-17 19:24:48,912 INFO     root | RX sensor1 from 127.0.0.1:52430: 24.6°C 48%
+2025-05-17 19:24:48,912 INFO     root | Battery low (16%), queuing reading from sensor1
+2025-05-17 19:24:48,912 INFO     root | Drone returning to base: 1 travel ticks remaining. Draining battery.
+2025-05-17 19:24:49,917 INFO     root | Drone arrived at base. Commencing charge.
+2025-05-17 19:24:50,917 INFO     root | [sensor1] Sent: Temp=24.5°C, Hum=53%
+2025-05-17 19:24:50,917 INFO     root | RX sensor1 from 127.0.0.1:52430: 24.5°C 53%
+2025-05-17 19:24:50,917 INFO     root | Battery low (23%), queuing reading from sensor1
+2025-05-17 19:24:52,607 INFO     root | Battery level: 43% (Low Threshold: 20%)
+2025-05-17 19:24:52,922 INFO     root | [sensor1] Sent: Temp=29.6°C, Hum=45%
+2025-05-17 19:24:52,922 INFO     root | RX sensor1 from 127.0.0.1:52430: 29.6°C 45%
+2025-05-17 19:24:52,922 INFO     root | Battery low (43%), queuing reading from sensor1
+2025-05-17 19:24:54,927 INFO     root | [sensor1] Sent: Temp=25.4°C, Hum=53%
+2025-05-17 19:24:54,927 INFO     root | RX sensor1 from 127.0.0.1:52430: 25.4°C 53%
+2025-05-17 19:24:54,927 INFO     root | Battery low (73%), queuing reading from sensor1
+2025-05-17 19:24:56,929 INFO     root | Drone now active. Battery: 93%.
+2025-05-17 19:24:56,930 INFO     root | Flushing 5 queued readings upon becoming active.
+2025-05-17 19:24:56,930 INFO     root | Report sent to ('127.0.0.1', 6000): status active, 5 readings, 0 anomalies.
+2025-05-17 19:24:56,932 INFO     root | [sensor1] Sent: Temp=23.9°C, Hum=41%
+2025-05-17 19:24:56,932 INFO     root | RX sensor1 from 127.0.0.1:52430: 23.9°C 41%
+2025-05-17 19:24:58,938 INFO     root | [sensor1] Sent: Temp=23.0°C, Hum=41%
+2025-05-17 19:24:58,938 INFO     root | RX sensor1 from 127.0.0.1:52430: 23.0°C 41%
+2025-05-17 19:25:00,943 INFO     root | [sensor1] Sent: Temp=27.1°C, Hum=43%
+2025-05-17 19:25:00,943 INFO     root | RX sensor1 from 127.0.0.1:52430: 27.1°C 43%
+2025-05-17 19:25:02,612 INFO     root | Battery level: 78% (Low Threshold: 20%)
+2025-05-17 19:25:02,944 INFO     root | [sensor1] Sent: Temp=26.0°C, Hum=51%
+2025-05-17 19:25:02,945 INFO     root | RX sensor1 from 127.0.0.1:52430: 26.0°C 51%
+2025-05-17 19:25:04,950 INFO     root | [sensor1] Sent: Temp=23.5°C, Hum=45%
+2025-05-17 19:25:04,950 INFO     root | RX sensor1 from 127.0.0.1:52430: 23.5°C 45%
+2025-05-17 19:25:04,950 INFO     root | Report sent to ('127.0.0.1', 6000): status active, 5 readings, 0 anomalies.
+2025-05-17 19:25:06,955 INFO     root | [sensor1] Sent: Temp=21.6°C, Hum=51%
+2025-05-17 19:25:06,955 INFO     root | RX sensor1 from 127.0.0.1:52430: 21.6°C 51%
+2025-05-17 19:25:08,958 INFO     root | [sensor1] Sent: Temp=24.3°C, Hum=45%
+2025-05-17 19:25:08,958 INFO     root | RX sensor1 from 127.0.0.1:52430: 24.3°C 45%
+2025-05-17 19:25:10,964 INFO     root | [sensor1] Sent: Temp=27.8°C, Hum=48%
+2025-05-17 19:25:10,964 INFO     root | RX sensor1 from 127.0.0.1:52430: 27.8°C 48%
+2025-05-17 19:25:12,614 INFO     root | Battery level: 54% (Low Threshold: 20%)
+2025-05-17 19:25:12,969 INFO     root | [sensor1] Sent: Temp=24.3°C, Hum=46%
+2025-05-17 19:25:12,969 INFO     root | RX sensor1 from 127.0.0.1:52430: 24.3°C 46%
+2025-05-17 19:25:14,974 INFO     root | [sensor1] Sent: Temp=24.9°C, Hum=46%
+2025-05-17 19:25:14,974 INFO     root | RX sensor1 from 127.0.0.1:52430: 24.9°C 46%
+2025-05-17 19:25:14,975 INFO     root | Report sent to ('127.0.0.1', 6000): status active, 5 readings, 0 anomalies.
+2025-05-17 19:25:16,979 INFO     root | [sensor1] Sent: Temp=22.8°C, Hum=58%
+2025-05-17 19:25:16,980 INFO     root | RX sensor1 from 127.0.0.1:52430: 22.8°C 58%
+2025-05-17 19:25:18,985 INFO     root | [sensor1] Sent: Temp=23.3°C, Hum=54%
+2025-05-17 19:25:18,985 INFO     root | RX sensor1 from 127.0.0.1:52430: 23.3°C 54%
+2025-05-17 19:25:20,990 INFO     root | [sensor1] Sent: Temp=20.4°C, Hum=54%
+2025-05-17 19:25:20,990 INFO     root | RX sensor1 from 127.0.0.1:52430: 20.4°C 54%
+2025-05-17 19:25:22,619 INFO     root | Battery level: 27% (Low Threshold: 20%)
+2025-05-17 19:25:22,995 INFO     root | [sensor1] Sent: Temp=25.1°C, Hum=47%
+2025-05-17 19:25:22,995 INFO     root | RX sensor1 from 127.0.0.1:52430: 25.1°C 47%
+2025-05-17 19:25:24,998 INFO     root | Drone initiating return to base (Threshold: 20%). Battery: 18%. Travel time: 2 ticks.
+2025-05-17 19:25:25,000 INFO     root | [sensor1] Sent: Temp=27.8°C, Hum=57%
+2025-05-17 19:25:25,001 INFO     root | RX sensor1 from 127.0.0.1:52430: 27.8°C 57%
+2025-05-17 19:25:25,001 INFO     root | Battery low (18%), queuing reading from sensor1
+2025-05-17 19:25:26,002 INFO     root | Drone returning to base: 2 travel ticks remaining. Draining battery.
+2025-05-17 19:25:27,005 INFO     root | [sensor1] Sent: Temp=24.0°C, Hum=55%
+2025-05-17 19:25:27,005 INFO     root | RX sensor1 from 127.0.0.1:52430: 24.0°C 55%
+2025-05-17 19:25:27,005 INFO     root | Battery low (15%), queuing reading from sensor1
+2025-05-17 19:25:27,005 INFO     root | Drone returning to base: 1 travel ticks remaining. Draining battery.
+2025-05-17 19:25:28,010 INFO     root | Drone arrived at base. Commencing charge.
+2025-05-17 19:25:29,010 INFO     root | [sensor1] Sent: Temp=21.5°C, Hum=59%
+2025-05-17 19:25:29,010 INFO     root | RX sensor1 from 127.0.0.1:52430: 21.5°C 59%
+2025-05-17 19:25:29,010 INFO     root | Battery low (22%), queuing reading from sensor1
+2025-05-17 19:25:31,015 INFO     root | [sensor1] Sent: Temp=29.0°C, Hum=54%
+2025-05-17 19:25:31,015 INFO     root | RX sensor1 from 127.0.0.1:52430: 29.0°C 54%
+2025-05-17 19:25:31,015 INFO     root | Battery low (42%), queuing reading from sensor1
+2025-05-17 19:25:32,625 INFO     root | Battery level: 62% (Low Threshold: 20%)
+2025-05-17 19:25:33,020 INFO     root | [sensor1] Sent: Temp=23.7°C, Hum=52%
+2025-05-17 19:25:33,020 INFO     root | RX sensor1 from 127.0.0.1:52430: 23.7°C 52%
+2025-05-17 19:25:33,020 INFO     root | Battery low (62%), queuing reading from sensor1
+2025-05-17 19:25:35,025 INFO     root | [sensor1] Sent: Temp=26.7°C, Hum=60%
+2025-05-17 19:25:35,025 INFO     root | RX sensor1 from 127.0.0.1:52430: 26.7°C 60%
+2025-05-17 19:25:35,026 INFO     root | Battery low (82%), queuing reading from sensor1
+2025-05-17 19:25:35,026 INFO     root | Drone now active. Battery: 92%.
+2025-05-17 19:25:35,026 INFO     root | Flushing 10 queued readings upon becoming active.
+2025-05-17 19:25:35,026 INFO     root | Report sent to ('127.0.0.1', 6000): status active, 10 readings, 0 anomalies.
+2025-05-17 19:25:37,031 INFO     root | [sensor1] Sent: Temp=25.7°C, Hum=48%
+2025-05-17 19:25:37,031 INFO     root | RX sensor1 from 127.0.0.1:52430: 25.7°C 48%
+2025-05-17 19:25:39,036 INFO     root | [sensor1] Sent: Temp=23.0°C, Hum=56%
+2025-05-17 19:25:39,036 INFO     root | RX sensor1 from 127.0.0.1:52430: 23.0°C 56%
+2025-05-17 19:25:41,041 INFO     root | [sensor1] Sent: Temp=24.4°C, Hum=55%
+2025-05-17 19:25:41,041 INFO     root | RX sensor1 from 127.0.0.1:52430: 24.4°C 55%
+2025-05-17 19:25:42,630 INFO     root | Battery level: 74% (Low Threshold: 20%)
+2025-05-17 19:25:43,046 INFO     root | [sensor1] Sent: Temp=24.0°C, Hum=50%
+2025-05-17 19:25:43,046 INFO     root | RX sensor1 from 127.0.0.1:52430: 24.0°C 50%
+2025-05-17 19:25:45,052 INFO     root | [sensor1] Sent: Temp=26.2°C, Hum=60%
+2025-05-17 19:25:45,052 INFO     root | RX sensor1 from 127.0.0.1:52430: 26.2°C 60%
+2025-05-17 19:25:45,052 INFO     root | Report sent to ('127.0.0.1', 6000): status active, 5 readings, 0 anomalies.
+2025-05-17 19:25:47,057 INFO     root | [sensor1] Sent: Temp=26.2°C, Hum=49%
+2025-05-17 19:25:47,057 INFO     root | RX sensor1 from 127.0.0.1:52430: 26.2°C 49%
+2025-05-17 19:25:49,062 INFO     root | [sensor1] Sent: Temp=22.2°C, Hum=53%
+2025-05-17 19:25:49,062 INFO     root | RX sensor1 from 127.0.0.1:52430: 22.2°C 53%
+2025-05-17 19:25:51,067 INFO     root | [sensor1] Sent: Temp=27.9°C, Hum=47%
+2025-05-17 19:25:51,067 INFO     root | RX sensor1 from 127.0.0.1:52430: 27.9°C 47%
+2025-05-17 19:25:52,635 INFO     root | Battery level: 44% (Low Threshold: 20%)
+2025-05-17 19:25:53,072 INFO     root | [sensor1] Sent: Temp=24.7°C, Hum=59%
+2025-05-17 19:25:53,072 INFO     root | RX sensor1 from 127.0.0.1:52430: 24.7°C 59%
+2025-05-17 19:25:55,077 INFO     root | [sensor1] Sent: Temp=22.2°C, Hum=59%
+2025-05-17 19:25:55,077 INFO     root | RX sensor1 from 127.0.0.1:52430: 22.2°C 59%
+2025-05-17 19:25:55,077 INFO     root | Report sent to ('127.0.0.1', 6000): status active, 5 readings, 0 anomalies.
+2025-05-17 19:25:57,082 INFO     root | [sensor1] Sent: Temp=25.6°C, Hum=45%
+2025-05-17 19:25:57,082 INFO     root | RX sensor1 from 127.0.0.1:52430: 25.6°C 45%
+2025-05-17 19:25:59,087 INFO     root | [sensor1] Sent: Temp=26.7°C, Hum=59%
+2025-05-17 19:25:59,087 INFO     root | RX sensor1 from 127.0.0.1:52430: 26.7°C 59%
+2025-05-17 19:26:01,092 INFO     root | [sensor1] Sent: Temp=22.2°C, Hum=47%
+2025-05-17 19:26:01,093 INFO     root | RX sensor1 from 127.0.0.1:52430: 22.2°C 47%
+2025-05-17 19:26:02,636 INFO     root | Battery level: 20% (Low Threshold: 20%)
+2025-05-17 19:26:03,098 INFO     root | [sensor1] Sent: Temp=20.7°C, Hum=52%
+2025-05-17 19:26:03,098 INFO     root | RX sensor1 from 127.0.0.1:52430: 20.7°C 52%
+2025-05-17 19:26:03,098 INFO     root | Drone initiating return to base (Threshold: 20%). Battery: 17%. Travel time: 2 ticks.
+2025-05-17 19:26:04,103 INFO     root | Drone returning to base: 2 travel ticks remaining. Draining battery.
+2025-05-17 19:26:05,103 INFO     root | [sensor1] Sent: Temp=23.4°C, Hum=49%
+2025-05-17 19:26:05,103 INFO     root | RX sensor1 from 127.0.0.1:52430: 23.4°C 49%
+2025-05-17 19:26:05,103 INFO     root | Battery low (14%), queuing reading from sensor1
+2025-05-17 19:26:05,103 INFO     root | Drone returning to base: 1 travel ticks remaining. Draining battery.
+2025-05-17 19:26:06,107 INFO     root | Drone arrived at base. Commencing charge.
+2025-05-17 19:26:07,108 INFO     root | [sensor1] Sent: Temp=28.9°C, Hum=48%
+2025-05-17 19:26:07,108 INFO     root | RX sensor1 from 127.0.0.1:52430: 28.9°C 48%
+2025-05-17 19:26:07,109 INFO     root | Battery low (21%), queuing reading from sensor1
+2025-05-17 19:26:08,542 INFO     root | Battery MANUALLY DRAINED by 10%. Level: 41% -> 31%.
+2025-05-17 19:26:09,114 INFO     root | [sensor1] Sent: Temp=23.1°C, Hum=57%
+2025-05-17 19:26:09,114 INFO     root | RX sensor1 from 127.0.0.1:52430: 23.1°C 57%
+2025-05-17 19:26:09,114 INFO     root | Battery low (31%), queuing reading from sensor1
+2025-05-17 19:26:11,119 INFO     root | [sensor1] Sent: Temp=22.0°C, Hum=45%
+2025-05-17 19:26:11,119 INFO     root | RX sensor1 from 127.0.0.1:52430: 22.0°C 45%
+2025-05-17 19:26:11,119 INFO     root | Battery low (51%), queuing reading from sensor1
+2025-05-17 19:26:12,641 INFO     root | Battery level: 71% (Low Threshold: 20%)
+2025-05-17 19:26:13,124 INFO     root | [sensor1] Sent: Temp=22.4°C, Hum=59%
+2025-05-17 19:26:13,124 INFO     root | RX sensor1 from 127.0.0.1:52430: 22.4°C 59%
+2025-05-17 19:26:13,124 INFO     root | Battery low (71%), queuing reading from sensor1
+2025-05-17 19:26:14,129 INFO     root | Drone now active. Battery: 91%.
+2025-05-17 19:26:14,129 INFO     root | Flushing 9 queued readings upon becoming active.
+2025-05-17 19:26:14,130 INFO     root | Report sent to ('127.0.0.1', 6000): status active, 9 readings, 0 anomalies.
+2025-05-17 19:26:15,129 INFO     root | [sensor1] Sent: Temp=27.6°C, Hum=51%
+2025-05-17 19:26:15,129 INFO     root | RX sensor1 from 127.0.0.1:52430: 27.6°C 51%
+2025-05-17 19:26:17,132 INFO     root | [sensor1] Sent: Temp=23.3°C, Hum=50%
+2025-05-17 19:26:17,132 INFO     root | RX sensor1 from 127.0.0.1:52430: 23.3°C 50%
+2025-05-17 19:26:19,137 INFO     root | [sensor1] Sent: Temp=23.0°C, Hum=52%
+2025-05-17 19:26:19,137 INFO     root | RX sensor1 from 127.0.0.1:52430: 23.0°C 52%
+2025-05-17 19:26:21,142 INFO     root | [sensor1] Sent: Temp=26.7°C, Hum=60%
+2025-05-17 19:26:21,142 INFO     root | RX sensor1 from 127.0.0.1:52430: 26.7°C 60%
+2025-05-17 19:26:22,647 INFO     root | Battery level: 67% (Low Threshold: 20%)
+2025-05-17 19:26:23,148 INFO     root | [sensor1] Sent: Temp=22.0°C, Hum=45%
+2025-05-17 19:26:23,148 INFO     root | RX sensor1 from 127.0.0.1:52430: 22.0°C 45%
+2025-05-17 19:26:23,148 INFO     root | Report sent to ('127.0.0.1', 6000): status active, 5 readings, 0 anomalies.
+2025-05-17 19:26:25,153 INFO     root | [sensor1] Sent: Temp=27.2°C, Hum=58%
+2025-05-17 19:26:25,153 INFO     root | RX sensor1 from 127.0.0.1:52430: 27.2°C 58%
+2025-05-17 19:26:27,157 INFO     root | [sensor1] Sent: Temp=29.2°C, Hum=54%
+2025-05-17 19:26:27,157 INFO     root | RX sensor1 from 127.0.0.1:52430: 29.2°C 54%
+2025-05-17 19:26:29,163 INFO     root | [sensor1] Sent: Temp=29.8°C, Hum=50%
+2025-05-17 19:26:29,163 INFO     root | RX sensor1 from 127.0.0.1:52430: 29.8°C 50%
+2025-05-17 19:26:31,165 INFO     root | [sensor1] Sent: Temp=21.8°C, Hum=46%
+2025-05-17 19:26:31,165 INFO     root | RX sensor1 from 127.0.0.1:52430: 21.8°C 46%
+2025-05-17 19:26:32,652 INFO     root | Battery level: 43% (Low Threshold: 20%)
+2025-05-17 19:26:33,170 INFO     root | [sensor1] Sent: Temp=20.8°C, Hum=45%
+2025-05-17 19:26:33,170 INFO     root | RX sensor1 from 127.0.0.1:52430: 20.8°C 45%
+2025-05-17 19:26:33,171 INFO     root | Report sent to ('127.0.0.1', 6000): status active, 5 readings, 0 anomalies.
+2025-05-17 19:26:35,176 INFO     root | [sensor1] Sent: Temp=20.8°C, Hum=52%
+2025-05-17 19:26:35,176 INFO     root | RX sensor1 from 127.0.0.1:52430: 20.8°C 52%
+2025-05-17 19:26:37,181 INFO     root | [sensor1] Sent: Temp=23.2°C, Hum=60%
+2025-05-17 19:26:37,181 INFO     root | RX sensor1 from 127.0.0.1:52430: 23.2°C 60%
+2025-05-17 19:26:39,186 INFO     root | [sensor1] Sent: Temp=27.8°C, Hum=52%
+2025-05-17 19:26:39,186 INFO     root | RX sensor1 from 127.0.0.1:52430: 27.8°C 52%
+2025-05-17 19:26:41,189 INFO     root | Drone initiating return to base (Threshold: 20%). Battery: 19%. Travel time: 2 ticks.
+2025-05-17 19:26:41,189 INFO     root | [sensor1] Sent: Temp=24.7°C, Hum=57%
+2025-05-17 19:26:41,189 INFO     root | RX sensor1 from 127.0.0.1:52430: 24.7°C 57%
+2025-05-17 19:26:41,189 INFO     root | Battery low (19%), queuing reading from sensor1
+2025-05-17 19:26:42,191 INFO     root | Drone returning to base: 2 travel ticks remaining. Draining battery.
+2025-05-17 19:26:42,656 INFO     root | Battery level: 16% (Low Threshold: 20%)
+2025-05-17 19:26:42,656 WARNING  root | Low battery warning: 16%
+2025-05-17 19:26:43,194 INFO     root | [sensor1] Sent: Temp=24.5°C, Hum=54%
+2025-05-17 19:26:43,194 INFO     root | RX sensor1 from 127.0.0.1:52430: 24.5°C 54%
+2025-05-17 19:26:43,194 INFO     root | Drone returning to base: 1 travel ticks remaining. Draining battery.
+2025-05-17 19:26:43,194 INFO     root | Battery low (13%), queuing reading from sensor1
+2025-05-17 19:26:44,195 INFO     root | Drone arrived at base. Commencing charge.
+2025-05-17 19:26:45,199 INFO     root | [sensor1] Sent: Temp=25.3°C, Hum=52%
+2025-05-17 19:26:45,199 INFO     root | RX sensor1 from 127.0.0.1:52430: 25.3°C 52%
+2025-05-17 19:26:45,199 INFO     root | Battery low (33%), queuing reading from sensor1
+2025-05-17 19:26:47,204 INFO     root | [sensor1] Sent: Temp=27.3°C, Hum=53%
+2025-05-17 19:26:47,204 INFO     root | RX sensor1 from 127.0.0.1:52430: 27.3°C 53%
+2025-05-17 19:26:47,205 INFO     root | Battery low (43%), queuing reading from sensor1
+2025-05-17 19:26:49,206 INFO     root | [sensor1] Sent: Temp=29.8°C, Hum=47%
+2025-05-17 19:26:49,207 INFO     root | RX sensor1 from 127.0.0.1:52430: 29.8°C 47%
+2025-05-17 19:26:49,207 INFO     root | Battery low (63%), queuing reading from sensor1
+2025-05-17 19:26:51,212 INFO     root | [sensor1] Sent: Temp=25.9°C, Hum=57%
+2025-05-17 19:26:51,212 INFO     root | RX sensor1 from 127.0.0.1:52430: 25.9°C 57%
+2025-05-17 19:26:51,212 INFO     root | Battery low (73%), queuing reading from sensor1
+2025-05-17 19:26:52,217 INFO     root | Drone now active. Battery: 93%.
+2025-05-17 19:26:52,217 INFO     root | Flushing 9 queued readings upon becoming active.
+2025-05-17 19:26:52,218 INFO     root | Report sent to ('127.0.0.1', 6000): status active, 9 readings, 0 anomalies.
+2025-05-17 19:26:52,661 INFO     root | Battery level: 93% (Low Threshold: 20%)
+2025-05-17 19:26:53,217 INFO     root | [sensor1] Sent: Temp=26.2°C, Hum=48%
+2025-05-17 19:26:53,217 INFO     root | RX sensor1 from 127.0.0.1:52430: 26.2°C 48%
+2025-05-17 19:26:55,222 INFO     root | [sensor1] Sent: Temp=23.9°C, Hum=49%
+2025-05-17 19:26:55,222 INFO     root | RX sensor1 from 127.0.0.1:52430: 23.9°C 49%
+2025-05-17 19:26:57,228 INFO     root | [sensor1] Sent: Temp=26.1°C, Hum=43%
+2025-05-17 19:26:57,228 INFO     root | RX sensor1 from 127.0.0.1:52430: 26.1°C 43%
+2025-05-17 19:26:59,231 INFO     root | [sensor1] Sent: Temp=25.1°C, Hum=43%
+2025-05-17 19:26:59,231 INFO     root | RX sensor1 from 127.0.0.1:52430: 25.1°C 43%
+2025-05-17 19:27:01,234 INFO     root | [sensor1] Sent: Temp=23.3°C, Hum=46%
+2025-05-17 19:27:01,234 INFO     root | RX sensor1 from 127.0.0.1:52430: 23.3°C 46%
+2025-05-17 19:27:01,234 INFO     root | Report sent to ('127.0.0.1', 6000): status active, 5 readings, 0 anomalies.
+2025-05-17 19:27:02,666 INFO     root | Battery level: 63% (Low Threshold: 20%)
+2025-05-17 19:27:03,239 INFO     root | [sensor1] Sent: Temp=23.6°C, Hum=53%
+2025-05-17 19:27:03,239 INFO     root | RX sensor1 from 127.0.0.1:52430: 23.6°C 53%
+2025-05-17 19:27:05,241 INFO     root | [sensor1] Sent: Temp=29.9°C, Hum=41%
+2025-05-17 19:27:05,241 INFO     root | RX sensor1 from 127.0.0.1:52430: 29.9°C 41%
+2025-05-17 19:27:07,246 INFO     root | [sensor1] Sent: Temp=21.3°C, Hum=42%
+2025-05-17 19:27:07,246 INFO     root | RX sensor1 from 127.0.0.1:52430: 21.3°C 42%
+2025-05-17 19:27:09,251 INFO     root | [sensor1] Sent: Temp=20.5°C, Hum=42%
+2025-05-17 19:27:09,251 INFO     root | RX sensor1 from 127.0.0.1:52430: 20.5°C 42%
+2025-05-17 19:27:11,256 INFO     root | [sensor1] Sent: Temp=22.5°C, Hum=48%
+2025-05-17 19:27:11,256 INFO     root | RX sensor1 from 127.0.0.1:52430: 22.5°C 48%
+2025-05-17 19:27:11,257 INFO     root | Report sent to ('127.0.0.1', 6000): status active, 5 readings, 0 anomalies.
+2025-05-17 19:27:11,691 INFO     root | Sensor 127.0.0.1:52430 disconnected.
+2025-05-17 19:27:12,672 INFO     root | Battery level: 36% (Low Threshold: 20%)
+2025-05-17 19:27:16,941 INFO     root | [anomaly1] connected to Drone at 127.0.0.1:5001
+2025-05-17 19:27:16,941 INFO     root | Sensor 127.0.0.1:52489 connected.
+2025-05-17 19:27:16,941 INFO     root | [anomaly1] Sent: Temp=1000.0°C, Hum=200%
+2025-05-17 19:27:16,941 INFO     root | RX anomaly1 from 127.0.0.1:52489: 1000.0°C 200%
+2025-05-17 19:27:18,945 INFO     root | [anomaly1] Sent: Temp=1000.0°C, Hum=200%
+2025-05-17 19:27:18,945 INFO     root | RX anomaly1 from 127.0.0.1:52489: 1000.0°C 200%
+2025-05-17 19:27:18,945 INFO     root | Drone initiating return to base (Threshold: 20%). Battery: 18%. Travel time: 2 ticks.
+2025-05-17 19:27:19,948 INFO     root | Drone returning to base: 2 travel ticks remaining. Draining battery.
+2025-05-17 19:27:20,947 INFO     root | [anomaly1] Sent: Temp=1000.0°C, Hum=200%
+2025-05-17 19:27:20,947 INFO     root | RX anomaly1 from 127.0.0.1:52489: 1000.0°C 200%
+2025-05-17 19:27:20,947 INFO     root | Battery low (15%), queuing reading from anomaly1
+2025-05-17 19:27:21,952 INFO     root | Drone returning to base: 1 travel ticks remaining. Draining battery.
+2025-05-17 19:27:22,677 INFO     root | Battery level: 12% (Low Threshold: 20%)
+2025-05-17 19:27:22,677 WARNING  root | Low battery warning: 12%
+2025-05-17 19:27:22,952 INFO     root | [anomaly1] Sent: Temp=1000.0°C, Hum=200%
+2025-05-17 19:27:22,952 INFO     root | RX anomaly1 from 127.0.0.1:52489: 1000.0°C 200%
+2025-05-17 19:27:22,953 INFO     root | Battery low (12%), queuing reading from anomaly1
+2025-05-17 19:27:22,953 INFO     root | Drone arrived at base. Commencing charge.
+2025-05-17 19:27:24,956 INFO     root | [anomaly1] Sent: Temp=1000.0°C, Hum=200%
+2025-05-17 19:27:24,956 INFO     root | RX anomaly1 from 127.0.0.1:52489: 1000.0°C 200%
+2025-05-17 19:27:24,956 INFO     root | Battery low (32%), queuing reading from anomaly1
+2025-05-17 19:27:26,961 INFO     root | [anomaly1] Sent: Temp=1000.0°C, Hum=200%
+2025-05-17 19:27:26,961 INFO     root | RX anomaly1 from 127.0.0.1:52489: 1000.0°C 200%
+2025-05-17 19:27:26,961 INFO     root | Battery low (42%), queuing reading from anomaly1
+2025-05-17 19:27:28,964 INFO     root | [anomaly1] Sent: Temp=1000.0°C, Hum=200%
+2025-05-17 19:27:28,965 INFO     root | RX anomaly1 from 127.0.0.1:52489: 1000.0°C 200%
+2025-05-17 19:27:28,965 INFO     root | Battery low (72%), queuing reading from anomaly1
+2025-05-17 19:27:30,970 INFO     root | [anomaly1] Sent: Temp=1000.0°C, Hum=200%
+2025-05-17 19:27:30,970 INFO     root | RX anomaly1 from 127.0.0.1:52489: 1000.0°C 200%
+2025-05-17 19:27:30,970 INFO     root | Battery low (82%), queuing reading from anomaly1
+2025-05-17 19:27:30,970 INFO     root | Drone now active. Battery: 92%.
+2025-05-17 19:27:30,970 INFO     root | Flushing 8 queued readings upon becoming active.
+2025-05-17 19:27:30,970 INFO     root | Report sent to ('127.0.0.1', 6000): status active, 8 readings, 8 anomalies.
+2025-05-17 19:27:32,681 INFO     root | Battery level: 89% (Low Threshold: 20%)
+2025-05-17 19:27:32,975 INFO     root | [anomaly1] Sent: Temp=1000.0°C, Hum=200%
+2025-05-17 19:27:32,975 INFO     root | RX anomaly1 from 127.0.0.1:52489: 1000.0°C 200%
+2025-05-17 19:27:34,980 INFO     root | [anomaly1] Sent: Temp=1000.0°C, Hum=200%
+2025-05-17 19:27:34,980 INFO     root | RX anomaly1 from 127.0.0.1:52489: 1000.0°C 200%
+2025-05-17 19:27:36,983 INFO     root | [anomaly1] Sent: Temp=1000.0°C, Hum=200%
+2025-05-17 19:27:36,983 INFO     root | RX anomaly1 from 127.0.0.1:52489: 1000.0°C 200%
+2025-05-17 19:27:38,988 INFO     root | [anomaly1] Sent: Temp=1000.0°C, Hum=200%
+2025-05-17 19:27:38,988 INFO     root | RX anomaly1 from 127.0.0.1:52489: 1000.0°C 200%
+2025-05-17 19:27:40,993 INFO     root | [anomaly1] Sent: Temp=1000.0°C, Hum=200%
+2025-05-17 19:27:40,993 INFO     root | RX anomaly1 from 127.0.0.1:52489: 1000.0°C 200%
+2025-05-17 19:27:40,993 INFO     root | Report sent to ('127.0.0.1', 6000): status active, 5 readings, 5 anomalies.
+2025-05-17 19:27:42,686 INFO     root | Battery level: 65% (Low Threshold: 20%)
+2025-05-17 19:27:42,998 INFO     root | [anomaly1] Sent: Temp=1000.0°C, Hum=200%
+2025-05-17 19:27:42,998 INFO     root | RX anomaly1 from 127.0.0.1:52489: 1000.0°C 200%
+2025-05-17 19:27:45,001 INFO     root | [anomaly1] Sent: Temp=1000.0°C, Hum=200%
+2025-05-17 19:27:45,001 INFO     root | RX anomaly1 from 127.0.0.1:52489: 1000.0°C 200%
+2025-05-17 19:27:47,006 INFO     root | [anomaly1] Sent: Temp=1000.0°C, Hum=200%
+2025-05-17 19:27:47,006 INFO     root | RX anomaly1 from 127.0.0.1:52489: 1000.0°C 200%
+2025-05-17 19:27:49,010 INFO     root | [anomaly1] Sent: Temp=1000.0°C, Hum=200%
+2025-05-17 19:27:49,010 INFO     root | RX anomaly1 from 127.0.0.1:52489: 1000.0°C 200%
+2025-05-17 19:27:51,015 INFO     root | [anomaly1] Sent: Temp=1000.0°C, Hum=200%
+2025-05-17 19:27:51,015 INFO     root | RX anomaly1 from 127.0.0.1:52489: 1000.0°C 200%
+2025-05-17 19:27:51,015 INFO     root | Report sent to ('127.0.0.1', 6000): status active, 5 readings, 5 anomalies.
+2025-05-17 19:27:52,689 INFO     root | Battery level: 41% (Low Threshold: 20%)
+2025-05-17 19:27:53,020 INFO     root | [anomaly1] Sent: Temp=1000.0°C, Hum=200%
+2025-05-17 19:27:53,020 INFO     root | RX anomaly1 from 127.0.0.1:52489: 1000.0°C 200%
+2025-05-17 19:27:55,025 INFO     root | [anomaly1] Sent: Temp=1000.0°C, Hum=200%
+2025-05-17 19:27:55,025 INFO     root | RX anomaly1 from 127.0.0.1:52489: 1000.0°C 200%
+2025-05-17 19:27:57,030 INFO     root | [anomaly1] Sent: Temp=1000.0°C, Hum=200%
+2025-05-17 19:27:57,031 INFO     root | RX anomaly1 from 127.0.0.1:52489: 1000.0°C 200%
+2025-05-17 19:27:59,031 INFO     root | [anomaly1] Sent: Temp=1000.0°C, Hum=200%
+2025-05-17 19:27:59,032 INFO     root | RX anomaly1 from 127.0.0.1:52489: 1000.0°C 200%
+2025-05-17 19:28:01,037 INFO     root | [anomaly1] Sent: Temp=1000.0°C, Hum=200%
+2025-05-17 19:28:01,037 INFO     root | RX anomaly1 from 127.0.0.1:52489: 1000.0°C 200%
+2025-05-17 19:28:01,037 INFO     root | Report sent to ('127.0.0.1', 6000): status active, 5 readings, 5 anomalies.
+2025-05-17 19:28:02,038 INFO     root | Drone initiating return to base (Threshold: 20%). Battery: 17%. Travel time: 2 ticks.
+2025-05-17 19:28:02,691 INFO     root | Battery level: 17% (Low Threshold: 20%)
+2025-05-17 19:28:02,691 WARNING  root | Low battery warning: 17%
+2025-05-17 19:28:03,042 INFO     root | [anomaly1] Sent: Temp=1000.0°C, Hum=200%
+2025-05-17 19:28:03,042 INFO     root | RX anomaly1 from 127.0.0.1:52489: 1000.0°C 200%
+2025-05-17 19:28:03,042 INFO     root | Battery low (17%), queuing reading from anomaly1
+2025-05-17 19:28:03,042 INFO     root | Drone returning to base: 2 travel ticks remaining. Draining battery.
+2025-05-17 19:28:04,047 INFO     root | Drone returning to base: 1 travel ticks remaining. Draining battery.
+2025-05-17 19:28:05,047 INFO     root | [anomaly1] Sent: Temp=1000.0°C, Hum=200%
+2025-05-17 19:28:05,047 INFO     root | RX anomaly1 from 127.0.0.1:52489: 1000.0°C 200%
+2025-05-17 19:28:05,048 INFO     root | Battery low (11%), queuing reading from anomaly1
+2025-05-17 19:28:05,048 INFO     root | Drone arrived at base. Commencing charge.
+2025-05-17 19:28:07,051 INFO     root | [anomaly1] Sent: Temp=1000.0°C, Hum=200%
+2025-05-17 19:28:07,051 INFO     root | RX anomaly1 from 127.0.0.1:52489: 1000.0°C 200%
+2025-05-17 19:28:07,051 INFO     root | Battery low (31%), queuing reading from anomaly1
+2025-05-17 19:28:09,056 INFO     root | [anomaly1] Sent: Temp=1000.0°C, Hum=200%
+2025-05-17 19:28:09,056 INFO     root | RX anomaly1 from 127.0.0.1:52489: 1000.0°C 200%
+2025-05-17 19:28:09,056 INFO     root | Battery low (41%), queuing reading from anomaly1
+2025-05-17 19:28:11,061 INFO     root | [anomaly1] Sent: Temp=1000.0°C, Hum=200%
+2025-05-17 19:28:11,061 INFO     root | RX anomaly1 from 127.0.0.1:52489: 1000.0°C 200%
+2025-05-17 19:28:11,062 INFO     root | Battery low (61%), queuing reading from anomaly1
+2025-05-17 19:28:13,067 INFO     root | [anomaly1] Sent: Temp=1000.0°C, Hum=200%
+2025-05-17 19:28:15,073 WARNING  root | [anomaly1] connection problem to 127.0.0.1:5001 ([Errno 32] Broken pipe) – retrying in 5 s
